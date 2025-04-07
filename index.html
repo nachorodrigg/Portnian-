@@ -7,25 +7,90 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #00509e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .banner {
+            background-image: url('https://via.placeholder.com/1200x300');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #000;
         }
         .search-container {
-            margin-bottom: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .search-container input {
+            width: 300px;
+            padding: 10px;
+            font-size: 1em;
         }
         .flight-list {
-            margin-top: 20px;
+            margin: 20px;
         }
         .flight-item {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
         }
         .flight-item h3 {
             margin: 0;
+            color: #00509e;
         }
         .flight-item p {
             margin: 5px 0;
         }
+        .flight-item ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .flight-item ul li {
+            background-color: #f2f2f2;
+            margin: 5px 0;
+            padding: 5px;
+        }
     </style>
 </head>
 <body>
+
+    <header>
+        <h1>Itinerarios de Vuelo</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Vuelos</a>
+        <a href="#">Destinos</a>
+        <a href="#">Promociones</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="banner">
+        Encuentra tu próximo destino
+    </div>
 
     <div class="search-container">
         <label for="search">Buscar vuelo:</label>
