@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerarios de Vuelo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .search-container {
+            margin-bottom: 20px;
+        }
+        .flight-list {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <label for="search">Buscar vuelo:</label>
+        <input type="text" id="search" list="airport-list" placeholder="Ingresa ciudad o aeropuerto">
+        <datalist id="airport-list">
+            <option value="Buenos Aires - Aeroparque (AEP)">
+            <option value="Buenos Aires - Ezeiza (EZE)">
+            <option value="Bogotá - El Dorado (BOG)">
+            <option value="Ciudad de México - Benito Juárez (MEX)">
+            <option value="Miami - International (MIA)">
+            <option value="Los Ángeles - LAX (LAX)">
+            <option value="Nueva York - JFK (JFK)">
+            <option value="Madrid - Barajas (MAD)">
+            <option value="Zúrich - Kloten (ZRH)">
+            <option value="Seattle - SEA (SEA)">
+            <option value="París - Charles de Gaulle (CDG)">
+            <option value="Florianópolis - Hercílio Luz (FLN)">
+            <option value="Asunción - Silvio Pettirossi (ASU)">
+            <option value="São Paulo - Guarulhos (GRU)">
+            <option value="Santiago de Chile - Arturo Merino Benítez (SCL)">
+            <option value="Río de Janeiro - Galeão (GIG)">
+            <option value="Montevideo - Carrasco (MVD)">
+            <option value="Puerto Iguazú - Cataratas (IGR)">
+            <option value="Salta - Martín Miguel de Güemes (SLA)">
+            <option value="Ushuaia - Malvinas Argentinas (USH)">
+            <option value="Bariloche - Teniente Luis Candelaria (BRC)">
+            <option value="Córdoba - Pajas Blancas (COR)">
+            <option value="Mendoza - El Plumerillo (MDZ)">
+        </datalist>
+    </div>
+
+    <div class="flight-list">
+        <h2>Vuelos Internacionales (Boeing 787-9) - Comidas y Bebidas</h2>
+        <ul>
+            <li>Buenos Aires - Bogotá: EZE 07:00 - BOG 11:35 | BOG 13:00 - EZE 21:30</li>
+            <li>Buenos Aires - Ciudad de México: EZE 12:00 - MEX 20:30 | MEX 22:00 - EZE 10:10</li>
+            <li>Buenos Aires - Miami: EZE 20:40 - MIA 05:15 | MIA 07:00 - EZE 17:30</li>
+            <li>Buenos Aires - Los Ángeles: EZE 22:15 - LAX 07:05 | LAX 09:05 - EZE 02:20</li>
+            <li>Buenos Aires - Nueva York: EZE 21:50 - JFK 08:15 | JFK 09:40 - EZE 22:05</li>
+            <li>Buenos Aires - Madrid: EZE 16:00 - MAD 08:40 | MAD 10:40 - EZE 19:20</li>
+            <li>Bogotá - Seattle: BOG 21:05 - SEA 04:00 | SEA 06:00 - BOG 19:15</li>
+            <li>Bogotá - París: BOG 19:30 - CDG 12:05 | CDG 13:45 - BOG 18:10</li>
+        </ul>
+
+        <h2>Vuelos Internacionales (Airbus A321) - Comidas y Bebidas</h2>
+        <ul>
+            <li>Buenos Aires - Florianópolis: AEP 07:00 - FLN 09:15 | FLN 10:10 - EZE 12:20</li>
+            <li>Buenos Aires - Asunción: EZE 13:35 - ASU 15:16 | ASU 16:11 - AEP 17:55</li>
+            <li>Buenos Aires - São Paulo: AEP 12:50 - GRU 15:40 | GRU 16:55 - EZE 19:50</li>
+            <li>Buenos Aires - Santiago de Chile: EZE 21:00 - SCL 23:00 | SCL 23:50 - EZE 01:50</li>
+            <li>Buenos Aires - Río de Janeiro: EZE 12:35 - GIG 15:40 | GIG 16:50 - EZE 20:00</li>
+            <li>Buenos Aires - Montevideo: EZE 21:15 - MVD 21:45 | MVD 22:40 - EZE 23:16</li>
+            <li>Bogotá - Miami: BOG 06:45 - MIA 11:20 | MIA 13:20 - BOG 16:00</li>
+            <li>Bogotá - Nueva York: BOG 21:00 - JFK 03:45 | JFK 05:45 - BOG 10:25</li>
+        </ul>
+
+        <h2>Vuelos Nacionales (Airbus A321) - Snack y Bebidas</h2>
+        <ul>
+            <li>Buenos Aires - Puerto Iguazú: AEP 04:50 - IGR 07:30 | IGR 08:25 - AEP 10:10</li>
+            <li>Buenos Aires - Salta: AEP 11:25 - SLA 13:20 | SLA 14:15 - AEP 16:20</li>
+            <li>Buenos Aires - Ushuaia: AEP 18:30 - USH 21:36 | USH 22:16 - AEP 01:20</li>
+            <li>Buenos Aires - Bariloche: EZE 15:47 - BRC 18:00 | BRC 19:00 - EZE 21:17</li>
+            <li>Buenos Aires - Córdoba: AEP 05:20 - COR 06:50 | COR 07:45 - AEP 09:10</li>
+            <li>Buenos Aires - Mendoza: AEP 10:25 - MDZ 12:03 | MDZ 12:58 - EZE 14:32</li>
+        </ul>
+    </div>
+
+</body>
+</html>
